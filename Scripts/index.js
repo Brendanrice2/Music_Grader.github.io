@@ -1,3 +1,0 @@
-function fetchSongInfo(){
-    const sheetDBApiEndpoint
-}
