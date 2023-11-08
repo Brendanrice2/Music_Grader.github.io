@@ -1,6 +1,6 @@
-#Intro Tutorial to Git and Github
+# Intro Tutorial to Git and Github
 
-#Summary
+## Summary
 
 Github is a website that is used to store repositories, where users can 
 collaborate on projects together. It creates an interface with a variety of
@@ -14,7 +14,7 @@ You can use whichever you prefer, or even just use the terminal within
 VSCODE which is probably far easier considering you can perform all of your 
 changes within one app.
 
-#Branches
+## Branches
 
 Each repo has a default branch, one we typically deem "main."
 
@@ -28,4 +28,4 @@ causes problems for collaborators of the repo.
 So to be safe, whenever we make changes it's best to create a separate 
 branch to host these changes.
 
-#
+
