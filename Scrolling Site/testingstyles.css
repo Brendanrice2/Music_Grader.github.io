@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+   /* background: linear-gradient(to right, #FF7E5F, #FFB6C1); */
+    background-color: #efefef;
+}
+
+header {
+    background-color:transparent;
+    color: #000000; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: absolute;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.slide1 {
+    width: 100%;
+    height: 100vh;
+    padding: 0% 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    scroll-snap-align: start;
+}
+
+.slide2 {
+    width: 100%;
+    height: fit-content;
+    padding: 0% 0% 0% 2.5%;
+
+}
+
+.slide2 {
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+
+
+
+
+.h2-2 {
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000; 
+    padding: 2% 0% 0% 1.5%;
+}
+
+.h3-2 {
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000; 
+    padding: 0% 0% 0% 1.5%;
+}
+
+
+.h2-3 {
+    font-weight: normal;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 1%;
+    color: black; /* Text color set to white */
+    margin-top: 30px;
+    max-width: 700px;
+    text-align: center;
+}
+
+
+.album-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album-card {
+    text-align: center;
+    width: 320px;
+    border: 1px solid transparent;
+    padding: 10px;
+    margin: 10px;
+}
+
+.album-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border: 5px solid transparent;
+    border-radius: 10px; /* Add rounding */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.album-card img:hover {
+    border-color: rgb(64, 255, 0); /* Change the border color to purple on hover */
+}
+
+.albumcovers {
+    justify-content: start;
+    max-width: 100vw;
+    margin: 0;
+    border: 0;
+}
+
+.slide3 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+/* Add these styles to your testingstyles.css file or include them in the <style> tag in the head of your HTML document */
+.tracklist {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5%;
+    overflow: hidden;
+    animation: animate 2s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        width: 100%;
+        height: 0%;
+    }
+    30% {
+        width: 100%;
+        height: 50%px;
+    }
+    60% {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.tracklist div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+
+.rating-input {
+    width: 60px; /* Set the width absolutely */
+    height: 20px; /* Set the height absolutely */
+}
+
+
+.track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.track-name {
+    flex: 1;
+}
+
+
+.image1 {
+    height: 100%;
+}
+
+.intro {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 18%;
+    color: #000000; /* Text color set to white */
+    animation: fadeInIntro 3s;
+}
+
+@keyframes fadeInIntro {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+
+.h2-1 {
+    border: 6px solid #000000; /* Border color set to white */
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 90px;
+    font-weight: 600;
+    margin-bottom: 1%;
+    color: #000000; /* Text color set to white */
+}
+
+
+
+.h3-1 {
+    font-weight: normal;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px;
+    color: #000000; /* Text color set to white */
+}
+
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 4px solid #000000;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: black;
+  font-size: larger;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000000;
+  background: #000000;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+  position: relative; /* Required for absolute positioning of the icon */
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 24px; /* Adjust the width of the icon */
+    height: 24px; /* Adjust the height of the icon */
+}
+
+.submit-button {
+    /* Add your button styles here */
+    background-color: #4CAF50; /* Green background color */
+    color: white; /* White text color */
+    padding: 10px 15px; /* Padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Add cursor pointer */
+    margin-top: 2.5%; /* Add top margin */
+}
+
+/* Hover effect for the button */
+.submit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+
+
+
+
+
+
+
