@@ -77,7 +77,7 @@ const musicData = {
                         'Tomorrow Never Knows'
                     ]
                 },
-                'SgtPeppers': {
+                'Sgt. Peppers Lonely Hearts Club Band': {
                     coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/6f/79/8d/6f798d84-7475-8525-fc91-f7b51b2b5a9b/00602567725428.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                     tracklist: [
                         'Sgt. Pepper\'s Lonely Hearts Club Band',
@@ -95,7 +95,7 @@ const musicData = {
                         'A Day in the Life'
                     ]
                 },
-                'WhiteAlbum': {
+                'The White Album': {
                         coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fa/5b/89/fa5b898d-bad6-e053-4195-260e5c74f2bb/00602567725466.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                         tracklist: [
                             'Back in the U.S.S.R.',
@@ -130,7 +130,7 @@ const musicData = {
                             'Good Night'
                         ]
                     },
-                'AbbeyRoad': {
+                'Abbey Road': {
                         coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f6/db/94/f6db94bd-35f8-2806-6459-dee4fbd85c68/19UMGIM68354.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                         tracklist: [
                             'Come Together',
@@ -148,11 +148,10 @@ const musicData = {
                             'She Came in Through the Bathroom Window',
                             'Golden Slumbers',
                             'Carry That Weight',
-                            'The End',
-                            'Her Majesty'
+                            'The End'
                             ]
                         },    
-                        'LetItBe': {
+                        'Let It Be': {
                             coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c8/6d/05/c86d05fa-8056-9b42-3483-0e9e474da327/21UMGIM61111.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                             tracklist: [
                                 'Two of Us',
@@ -171,148 +170,7 @@ const musicData = {
                         },    
             }
         },
-        'Pink Floyd': {
-            albums: {
-                'The Piper at the Gates of Dawn': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/07/cd/c9/07cdc978-7bc4-08ab-89e5-dab18a42b863/886445635799.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'Astronomy Domine',
-                        'Lucifer Sam',
-                        'Matilda Mother',
-                        'Flaming',
-                        'Pow R. Toc H.',
-                        'Take Up Thy Stethoscope and Walk',
-                        'Interstellar Overdrive',
-                        'The Gnome',
-                        'Chapter 24',
-                        'The Scarecrow',
-                        'Bike'
-                    ]
-                },
-                'Atom Heart Mother': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/ac/00/35/ac0035b1-2f21-4a15-9746-646354c811c2/886445635836.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'Atom Heart Mother Suite',
-                        'If',
-                        'Summer \'68',
-                        'Fat Old Sun',
-                        'Alan\'s Psychedelic Breakfast'
-                    ]
-                },        
-                'Meddle': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/ff/14/d5/ff14d50a-af6d-22d5-185a-6247bc008772/886445635911.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'One of These Days',
-                        'A Pillow of Winds',
-                        'Fearless',
-                        'San Tropez',
-                        'Seamus',
-                        'Echoes'
-                    ]
-                },
-                'The Dark Side of the Moon': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3c/1b/a9/3c1ba9e1-15b1-03b3-3bfd-09dbd9f1705b/dj.mggvbaou.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'Speak to Me',
-                        'Breathe (In the Air)',
-                        'On the Run',
-                        'Time',
-                        'The Great Gig in the Sky',
-                        'Money',
-                        'Us and Them',
-                        'Any Colour You Like',
-                        'Brain Damage',
-                        'Eclipse'
-                    ]
-                },
-                'Wish You Were Here': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/49/ab/fe/49abfef6-0cd9-aa1f-05c3-3eb85d3fe3f5/886445635843.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'Shine On You Crazy Diamond (Parts I-V)',
-                        'Welcome to the Machine',
-                        'Have a Cigar',
-                        'Wish You Were Here',
-                        'Shine On You Crazy Diamond (Parts VI-IX)'
-                    ]
-                },
-                'Animals': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/ef/ff/6deffff9-b10f-975a-337d-88ae2ac05cd0/886445635942.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'Pigs on the Wing 1',
-                        'Dogs',
-                        'Pigs (Three Different Ones)',
-                        'Sheep',
-                        'Pigs on the Wing 2'
-                    ]
-                },
-                'The Wall': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3c/b4/e3/3cb4e3d0-cd77-8f18-7465-d60e6949b435/886445635850.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'In the Flesh?',
-                        'The Thin Ice',
-                        'Another Brick in the Wall (Part I)',
-                        'The Happiest Days of Our Lives',
-                        'Another Brick in the Wall (Part II)',
-                        'Mother',
-                        'Goodbye Blue Sky',
-                        'Empty Spaces',
-                        'Young Lust',
-                        'One of My Turns',
-                        'Don\'t Leave Me Now',
-                        'Another Brick in the Wall (Part III)',
-                        'Goodbye Cruel World',
-                        'Hey You',
-                        'Is There Anybody Out There?',
-                        'Nobody Home',
-                        'Vera',
-                        'Bring the Boys Back Home',
-                        'Comfortably Numb',
-                        'The Show Must Go On',
-                        'In the Flesh',
-                        'Run Like Hell',
-                        'Waiting for the Worms',
-                        'Stop',
-                        'The Trial',
-                        'Outside the Wall'
-                    ]
-                },
-                'The Final Cut': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4d/1a/a5/4d1aa517-d701-c6cd-5965-0652f5eee7bf/886445635904.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'The Post War Dream',
-                        'Your Possible Pasts',
-                        'One of the Few',
-                        'When the Tigers Broke Free',
-                        'The Hero\'s Return',
-                        'The Gunner\'s Dream',
-                        'Paranoid Eyes',
-                        'Get Your Filthy Hands Off My Desert',
-                        'The Fletcher Memorial Home',
-                        'Southampton Dock',
-                        'The Final Cut',
-                        'Not Now John',
-                        'Two Suns in the Sunset'
-                    ]
-                },
-                'The Division Bell': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c6/49/fc/c649fc21-4c65-d55d-71a4-dac0c39e7a56/886445627572.jpg/600x600bb.jpg', // Replace with the actual cover image URL
-                    tracklist: [
-                        'Cluster One',
-                        'What Do You Want from Me',
-                        'Poles Apart',
-                        'Marooned',
-                        'A Great Day for Freedom',
-                        'Wearing the Inside Out',
-                        'Take It Back',
-                        'Coming Back to Life',
-                        'Keep Talking',
-                        'Lost for Words',
-                        'High Hopes'
-                    ]
-                },
 
-            }
-        },
         'AC/DC': {
             albums: {
                 'Let There Be Rock': {
@@ -393,7 +251,7 @@ const musicData = {
         'Aerosmith': {
             albums: {
                 'Aerosmith': {
-                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e2/87/d9/e287d987-7b92-7749-737f-b5b8a6913f88/22UM1IM3', // Replace with the actual cover image URL
+                    coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/e2/87/d9/e287d987-7b92-7749-737f-b5b8a6913f88/22UM1IM38560.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                     tracklist: [
                         'Make It',
                         'Somebody',
@@ -1182,7 +1040,7 @@ const musicData = {
                         ]
                     },
                     'The Soft Parade': {
-                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9a/54/6e/9a546e8b-f994-8d1f-a94b-d2d642dee4ce/075596056021.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f5/02/5f/f5025ffd-ac87-e801-9494-40e3c44e0974/603497851317.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                         tracklist: [
                             'Tell All the People',
                             'Touch Me',
@@ -1366,7 +1224,7 @@ const musicData = {
             'Grateful Dead': {
                 albums: {
                     'Grateful Dead (Skull and Roses)': {
-                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/fb/f3/5afbf38c-a7f7-cb85-dcaa-4a35f2ed48e0/603497870189.jpg/600x600bb.jpgg', // Replace with the actual cover image URL
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/1e/35/8b/1e358b19-d9fa-3bea-bc6a-ab80386162bd/603497920969.jpg/600x600bb.jpg', // Replace with the actual cover image URL
                         tracklist: [
                             'Bertha',
                             'Mama Tried',
@@ -1568,7 +1426,7 @@ const musicData = {
                             'Fire',
                             'Third Stone from the Sun',
                             'Foxey Lady',
-                            'Are You Experienced'
+                            'Are You Experienced?'
                         ]
                     },
                     'Axis: Bold as Love': {
@@ -1606,7 +1464,7 @@ const musicData = {
                             'Moon, Turn the Tiders... Gently Gently Away',
                             'Still Raining, Still Dreaming',
                             'House Burning Down',
-                            'All ALong The Watchtower',
+                            'All Along The Watchtower',
                             'Voodoo Child (Slight Return)'
                         ]
                     }
@@ -1717,5 +1575,1413 @@ const musicData = {
                     }
                 }
             },
+            'Lynyrd Skynyrd': {
+                albums: {
+                    'Pronounced \'Leh-\'nerd \'Skin-\'nerd': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/57/00/f3/5700f331-2d06-7f5d-cb98-43970fd52874/14UMGIM00860.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'I Ain\'t the One',
+                            'Tuesday\'s Gone',
+                            'Gimme Three Steps',
+                            'Simple Man',
+                            'Things Goin\' On',
+                            'Mississippi Kid',
+                            'Poison Whiskey',
+                            'Free Bird'
+                        ]
+                    },
+                    'Second Helping': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/35/ab/0a/35ab0a8f-acfd-e2ce-d1df-8e0d56ab423c/06UMGIM04107.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Sweet Home Alabama',
+                            'I Need You',
+                            'Don\'t Ask Me No Questions',
+                            'Workin\' for MCA',
+                            'The Ballad of Curtis Loew',
+                            'Swamp Music',
+                            'The Needle and the Spoon',
+                            'Call Me the Breeze'
+                        ]
+                    }, 
+                    'Nuthin\' Fancy': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/51/24/f4/5124f468-6d41-d062-4a21-49dbfb4bf0fa/14UMGIM00871.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Saturday Night Special',
+                            'Cheatin\' Woman',
+                            'Railroad Song',
+                            'I\'m a Country Boy',
+                            'On the Hunt',
+                            'Am I Losin\'',
+                            'Made in the Shade',
+                            'Whiskey Rock-a-Roller'
+                        ]
+                    },
+                    'Street Survivors': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/48/f3/f3/48f3f3ac-996a-3307-0b0d-8f814a407242/06UMGIM37716.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'What\'s Your Name',
+                            'That Smell',
+                            'One More Time',
+                            'I Know a Little',
+                            'You Got That Right',
+                            'I Never Dreamed',
+                            'Honky Tonk Night Time Man',
+                            'Ain\'t No Good Life'
+                        ]
+                    },
+                }
+            },
+            'Metallica': {
+                albums: {
+                    'Kill \'Em All': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1c/86/3e/1c863e8a-63df-ce4f-10fe-98b7e9228bd1/Kill_Em_All_HI_RES.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Hit the Lights',
+                            'The Four Horsemen',
+                            'Motorbreath',
+                            'Jump in the Fire',
+                            '(Anesthesia) Pulling Teeth',
+                            'Whiplash',
+                            'Phantom Lord',
+                            'No Remorse',
+                            'Seek & Destroy',
+                            'Metal Militia'
+                        ]
+                    },
+                    'Ride the Lightning': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/0f/7a/74/0f7a7472-92fa-e77d-384a-1e4304705e83/dj.jbiruenb.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Fight Fire with Fire',
+                            'Ride the Lightning',
+                            'For Whom the Bell Tolls',
+                            'Fade to Black',
+                            'Trapped Under Ice',
+                            'Escape',
+                            'Creeping Death',
+                            'The Call of Ktulu'
+                        ]
+                    },
+                    'Master of Puppets': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ed/ee/7f/edee7f18-85b6-ebb4-0620-89cbe56fe205/858978005554.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Battery',
+                            'Master of Puppets',
+                            'The Thing That Should Not Be',
+                            'Welcome Home (Sanitarium)',
+                            'Disposable Heroes',
+                            'Leper Messiah',
+                            'Orion',
+                            'Damage, Inc.'
+                        ]
+                    },
+                    'And Justice for All': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/5e/a5/0b/5ea50bc9-dc60-915f-9afe-e318ed956b67/858978005837.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Blackened',
+                            '...And Justice for All',
+                            'Eye of the Beholder',
+                            'One',
+                            'The Shortest Straw',
+                            'Harvester of Sorrow',
+                            'The Frayed Ends of Sanity',
+                            'To Live Is to Die',
+                            'Dyers Eve'
+                        ]
+                    },
+                    'Metallica (The Black Album)': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/18/93/db/1893db5c-ddd1-b95c-3112-b9b83bcceab0/0093624986553.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Enter Sandman',
+                            'Sad but True',
+                            'Holier Than Thou',
+                            'The Unforgiven',
+                            'Wherever I May Roam',
+                            'Don\'t Tread on Me',
+                            'Through the Never',
+                            'Nothing Else Matters',
+                            'Of Wolf and Man',
+                            'The God That Failed',
+                            'My Friend of Misery',
+                            'The Struggle Within'
+                        ]
+                    },
+                    'Load': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4f/25/da/4f25da69-51a3-03da-5cf5-fa50eb455cb9/0093624986546.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Ain\'t My Bitch',
+                            '2 x 4',
+                            'The House Jack Built',
+                            'Until It Sleeps',
+                            'King Nothing',
+                            'Hero of the Day',
+                            'Bleeding Me',
+                            'Cure',
+                            'Poor Twisted Me',
+                            'Wasting My Hate',
+                            'Mama Said',
+                            'Thorn Within',
+                            'Ronnie',
+                            'The Outlaw Torn'
+                        ]
+                    },
+                    'Reload': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/68/b0/0e/68b00e47-8c5f-fd9c-9d39-fbee55a4b9d4/0093624986539.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Fuel',
+                            'The Memory Remains',
+                            'Devil\'s Dance',
+                            'The Unforgiven II',
+                            'Better Than You',
+                            'Slither',
+                            'Carpe Diem Baby',
+                            'Bad Seed',
+                            'Where the Wild Things Are',
+                            'Prince Charming',
+                            'Low Man\'s Lyric',
+                            'Attitude',
+                            'Fixxxer'
+                        ]
+                    }
+                }
+            },
+            'Nirvana': {
+                albums: {
+                    'Bleach': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/71/fc/61/71fc6147-fa50-2e25-4e42-db8b45e345ab/Nirvana_Bleach_20th_1425px.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Blew',
+                            'Floyd the Barber',
+                            'About a Girl',
+                            'School',
+                            'Love Buzz',
+                            'Paper Cuts',
+                            'Negative Creep',
+                            'Scoff',
+                            'Swap Meet',
+                            'Mr. Moustache',
+                            'Sifting',
+                            'Big Cheese',
+                            'Downer'
+                        ]
+                    },
+                    'Nevermind': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Smells Like Teen Spirit',
+                            'In Bloom',
+                            'Come as You Are',
+                            'Breed',
+                            'Lithium',
+                            'Polly',
+                            'Territorial Pissings',
+                            'Drain You',
+                            'Lounge Act',
+                            'Stay Away',
+                            'On a Plain',
+                            'Something in the Way'
+                        ]
+                    },
+                    'In Utero': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e3/20/03/e32003a4-99bc-1c70-40ba-001882f35dba/00602537526840.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Serve the Servants',
+                            'Scentless Apprentice',
+                            'Heart-Shaped Box',
+                            'Rape Me',
+                            'Frances Farmer Will Have Her Revenge on Seattle',
+                            'Dumb',
+                            'Very Ape',
+                            'Milk It',
+                            'Pennyroyal Tea',
+                            'Radio Friendly Unit Shifter',
+                            'tourette\'s',
+                            'All Apologies'
+                        ]
+                    },
+                }
+            },
+            'Oasis': {
+                albums: {
+                    'Definitely Maybe': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/00/af/e3/00afe365-35f8-04cb-379a-e12abead71cd/5051961070132.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Rock \'n\' Roll Star',
+                            'Shakermaker',
+                            'Live Forever',
+                            'Up in the Sky',
+                            'Columbia',
+                            'Supersonic',
+                            'Bring It On Down',
+                            'Cigarettes & Alcohol',
+                            'Digsy\'s Dinner',
+                            'Slide Away',
+                            'Married with Children'
+                        ]
+                    },
+                    '(What\'s the Story) Morning Glory?': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/04/92/e0/0492e08b-cbcc-9969-9ad6-8f5a0888068c/5051961007107.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Hello',
+                            'Roll with It',
+                            'Wonderwall',
+                            'Don\'t Look Back in Anger',
+                            'Hey Now!',
+                            '(Untitled)',
+                            'Some Might Say',
+                            'Cast No Shadow',
+                            'She\'s Electric',
+                            'Morning Glory',
+                            '(Untitled)',
+                            'Champagne Supernova'
+                        ]
+                    },
+                    'Be Here Now': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1d/39/69/1d396929-1d10-5f46-f50a-7ac85d63f0de/5051961085136.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'D\'You Know What I Mean?',
+                            'My Big Mouth',
+                            'Magic Pie',
+                            'Stand by Me',
+                            'I Hope, I Think, I Know',
+                            'The Girl in the Dirty Shirt',
+                            'Fade In-Out',
+                            'Don\'t Go Away',
+                            'Be Here Now',
+                            'All Around the World',
+                            'It\'s Gettin\' Better (Man!!)',
+                            'All Around the World (Reprise)'
+                        ]
+                    }
+                }
+            },
+            'Pearl Jam': {
+                albums: {
+                    'Ten': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5e/91/c1/5e91c1ba-53cb-c5c8-15f1-d3c81f3b3592/dj.psrqglcw.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Once',
+                            'Even Flow',
+                            'Alive',
+                            'Why Go',
+                            'Black',
+                            'Jeremy',
+                            'Oceans',
+                            'Porch',
+                            'Garden',
+                            'Deep',
+                            'Release'
+                        ]
+                    },
+                    'Vs.': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/60/a1/f7/60a1f7ee-72d8-0096-ac20-fe9c453211c7/dj.nyndmalc.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Go',
+                            'Animal',
+                            'Daughter',
+                            'Glorified G',
+                            'Dissident',
+                            'W.M.A.',
+                            'Blood',
+                            'Rearviewmirror',
+                            'Rats',
+                            'Elderly Woman Behind the Counter in a Small Town',
+                            'Leash',
+                            'Indifference'
+                        ]
+                    },
+                    'Vitalogy': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/8c/6d/5c8c6d72-ff93-5182-be87-f224db0a41e3/dj.gxlpyxpu.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Last Exit',
+                            'Spin the Black Circle',
+                            'Not for You',
+                            'Tremor Christ',
+                            'Nothingman',
+                            'Whipping',
+                            'Pry, To',
+                            'Corduroy',
+                            'Bugs',
+                            'Satan\'s Bed',
+                            'Better Man',
+                            'Aye Davanita',
+                            'Immortality',
+                            'Hey Foxymophandlemama, That\'s Me'
+                        ]
+                    },
+                }
+            },        
+            'Pink Floyd': {
+                albums: {
+                    'The Piper at the Gates of Dawn': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/07/cd/c9/07cdc978-7bc4-08ab-89e5-dab18a42b863/886445635799.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Astronomy Domine',
+                            'Lucifer Sam',
+                            'Matilda Mother',
+                            'Flaming',
+                            'Pow R. Toc H.',
+                            'Take Up Thy Stethoscope and Walk',
+                            'Interstellar Overdrive',
+                            'The Gnome',
+                            'Chapter 24',
+                            'The Scarecrow',
+                            'Bike'
+                        ]
+                    },
+                    'Atom Heart Mother': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music49/v4/ac/00/35/ac0035b1-2f21-4a15-9746-646354c811c2/886445635836.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Atom Heart Mother Suite',
+                            'If',
+                            'Summer \'68',
+                            'Fat Old Sun',
+                            'Alan\'s Psychedelic Breakfast'
+                        ]
+                    },        
+                    'Meddle': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/ff/14/d5/ff14d50a-af6d-22d5-185a-6247bc008772/886445635911.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'One of These Days',
+                            'A Pillow of Winds',
+                            'Fearless',
+                            'San Tropez',
+                            'Seamus',
+                            'Echoes'
+                        ]
+                    },
+                    'The Dark Side of the Moon': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3c/1b/a9/3c1ba9e1-15b1-03b3-3bfd-09dbd9f1705b/dj.mggvbaou.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Speak to Me',
+                            'Breathe (In the Air)',
+                            'On the Run',
+                            'Time',
+                            'The Great Gig in the Sky',
+                            'Money',
+                            'Us and Them',
+                            'Any Colour You Like',
+                            'Brain Damage',
+                            'Eclipse'
+                        ]
+                    },
+                    'Wish You Were Here': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/49/ab/fe/49abfef6-0cd9-aa1f-05c3-3eb85d3fe3f5/886445635843.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Shine On You Crazy Diamond (Parts I-V)',
+                            'Welcome to the Machine',
+                            'Have a Cigar',
+                            'Wish You Were Here',
+                            'Shine On You Crazy Diamond (Parts VI-IX)'
+                        ]
+                    },
+                    'Animals': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6d/ef/ff/6deffff9-b10f-975a-337d-88ae2ac05cd0/886445635942.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Pigs on the Wing 1',
+                            'Dogs',
+                            'Pigs (Three Different Ones)',
+                            'Sheep',
+                            'Pigs on the Wing 2'
+                        ]
+                    },
+                    'The Wall': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3c/b4/e3/3cb4e3d0-cd77-8f18-7465-d60e6949b435/886445635850.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'In the Flesh?',
+                            'The Thin Ice',
+                            'Another Brick in the Wall (Part I)',
+                            'The Happiest Days of Our Lives',
+                            'Another Brick in the Wall (Part II)',
+                            'Mother',
+                            'Goodbye Blue Sky',
+                            'Empty Spaces',
+                            'Young Lust',
+                            'One of My Turns',
+                            'Don\'t Leave Me Now',
+                            'Another Brick in the Wall (Part III)',
+                            'Goodbye Cruel World',
+                            'Hey You',
+                            'Is There Anybody Out There?',
+                            'Nobody Home',
+                            'Vera',
+                            'Bring the Boys Back Home',
+                            'Comfortably Numb',
+                            'The Show Must Go On',
+                            'In the Flesh',
+                            'Run Like Hell',
+                            'Waiting for the Worms',
+                            'Stop',
+                            'The Trial',
+                            'Outside the Wall'
+                        ]
+                    },
+                    'The Final Cut': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/4d/1a/a5/4d1aa517-d701-c6cd-5965-0652f5eee7bf/886445635904.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'The Post War Dream',
+                            'Your Possible Pasts',
+                            'One of the Few',
+                            'When the Tigers Broke Free',
+                            'The Hero\'s Return',
+                            'The Gunner\'s Dream',
+                            'Paranoid Eyes',
+                            'Get Your Filthy Hands Off My Desert',
+                            'The Fletcher Memorial Home',
+                            'Southampton Dock',
+                            'The Final Cut',
+                            'Not Now John',
+                            'Two Suns in the Sunset'
+                        ]
+                    },
+                    'The Division Bell': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c6/49/fc/c649fc21-4c65-d55d-71a4-dac0c39e7a56/886445627572.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Cluster One',
+                            'What Do You Want from Me',
+                            'Poles Apart',
+                            'Marooned',
+                            'A Great Day for Freedom',
+                            'Wearing the Inside Out',
+                            'Take It Back',
+                            'Coming Back to Life',
+                            'Keep Talking',
+                            'Lost for Words',
+                            'High Hopes'
+                        ]
+                    }
+                }
+            },
+            'The Police': {
+                albums: {
+                    'Outlandos d\'Amour': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/47/de/29/47de29d9-5109-2020-d296-1021a7378574/16UMGIM60880.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Next to You',
+                            'So Lonely',
+                            'Roxanne',
+                            'Hole in My Life',
+                            'Peanuts',
+                            'Can\'t Stand Losing You',
+                            'Truth Hits Everybody',
+                            'Born in the 50s',
+                            'Be My Girl - Sally',
+                            'Masoko Tanga'
+                        ]
+                    },
+                    'Reggatta de Blanc': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/74/2a/da/742ada22-9a00-1620-b72e-6667745b010a/16UMGIM60881.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Message in a Bottle',
+                            'Reggatta de Blanc',
+                            'It\'s Alright for You',
+                            'Bring on the Night',
+                            'Deathwish',
+                            'Walking on the Moon',
+                            'On Any Other Day',
+                            'The Bed\'s Too Big Without You',
+                            'Contact',
+                            'Does Everyone Stare',
+                            'No Time This Time'
+                        ]
+                    },
+                    'Zenyatta Mondatta': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2b/6f/c1/2b6fc116-cb69-91eb-5401-e71383a7d1bc/16UMGIM60883.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Don\'t Stand So Close to Me',
+                            'Driven to Tears',
+                            'When the World Is Running Down, You Make the Best of What\'s Still Around',
+                            'Canary in a Coalmine',
+                            'Voices Inside My Head',
+                            'Bombs Away',
+                            'De Do Do Do, De Da Da Da',
+                            'Behind My Camel',
+                            'Man in a Suitcase',
+                            'Shadows in the Rain',
+                            'The Other Way of Stopping'
+                        ]
+                    },
+                    'Ghost In the Machine': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/2c/b6/d6/2cb6d68c-dd4e-87be-14e2-82d0cacf9429/22UMGIM67549.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Invisible Sun',
+                            'Demolition Man',
+                            'Secret Journey',
+                            'Darkness',
+                            'Spirits In the Material World',
+                            'Too Much Information',
+                            'Omegaman',
+                            'One World (Not Three)',
+                            'Rehumanize Yourself',
+                            'I Burn For You',
+                            'Hungry For You',
+                            'Every Little Thing She Does Is Magig',
+                            'Once Upon a Daydream',
+                            'Shambelle'
+                        ]
+                    },
+                    'Synchronicity': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a4/67/ba/a467ba62-87df-9d10-98d2-c517f68ac870/16UMGIM60882.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Synchronicity I',
+                            'Walking in Your Footsteps',
+                            'O My God',
+                            'Mother',
+                            'Miss Gradenko',
+                            'Synchronicity II',
+                            'Every Breath You Take',
+                            'King of Pain',
+                            'Wrapped Around Your Finger',
+                            'Tea in the Sahara'
+                        ]
+                    },
+                }
+            },
+            'Radiohead': {
+                albums: {
+                    'Pablo Honey': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/0a/30/e8/0a30e802-d9a3-ba01-243c-774f7cd966fd/634904077969.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'You',
+                            'Creep',
+                            'How Do You?',
+                            'Stop Whispering',
+                            'Thinking About You',
+                            'Anyone Can Play Guitar',
+                            'Ripcord',
+                            'Vegetable',
+                            'Prove Yourself',
+                            'I Can\'t'
+                        ]
+                    },
+                    'The Bends': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/1b/a9/5c/1ba95cac-b245-d386-63fb-6b857aa9dce8/634904078065.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Planet Telex',
+                            'The Bends',
+                            'High and Dry',
+                            'Fake Plastic Trees',
+                            'Bones',
+                            '(Nice Dream)',
+                            'Just',
+                            'My Iron Lung',
+                            'Bullet Proof..I Wish I Was',
+                            'Black Star',
+                            'Sulk',
+                            'Street Spirit (Fade Out)'
+                        ]
+                    },
+                    'OK Computer': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/60/e9/63/60e9632c-0757-58c2-88f8-afaa1f210843/634904078164.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Airbag',
+                            'Paranoid Android',
+                            'Subterranean Homesick Alien',
+                            'Exit Music (For a Film)',
+                            'Let Down',
+                            'Karma Police',
+                            'Fitter Happier',
+                            'Electioneering',
+                            'Climbing Up the Walls',
+                            'No Surprises',
+                            'Lucky',
+                            'The Tourist'
+                        ]
+                    },
+                    'Kid A': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/bd/8e/13/bd8e1358-b367-a689-cb84-cebd0b067dc4/634904078263.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Everything in Its Right Place',
+                            'Kid A',
+                            'The National Anthem',
+                            'How to Disappear Completely',
+                            'Treefingers',
+                            'Optimistic',
+                            'In Limbo',
+                            'Idioteque',
+                            'Morning Bell',
+                            'Motion Picture Soundtrack'
+                        ]
+                    },
+                    'Amnesiac': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/43/d8/ec/43d8ec17-0e96-dba9-21d9-4cdf9d98f2bf/634904078362.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Packt Like Sardines in a Crushd Tin Box',
+                            'Pyramid Song',
+                            'Pulk/Pull Revolving Doors',
+                            'You and Whose Army?',
+                            'I Might Be Wrong',
+                            'Knives Out',
+                            'Morning Bell/Amnesiac',
+                            'Dollars and Cents',
+                            'Hunting Bears',
+                            'Like Spinning Plates',
+                            'Life in a Glasshouse'
+                        ]
+                    },
+                    'In Rainbows': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/dd/50/c7/dd50c790-99ac-d3d0-5ab8-e3891fb8fd52/634904032463.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            '15 Step',
+                            'Bodysnatchers',
+                            'Nude',
+                            'Weird Fishes/Arpeggi',
+                            'All I Need',
+                            'Faust Arp',
+                            'Reckoner',
+                            'House of Cards',
+                            'Jigsaw Falling Into Place',
+                            'Videotape'
+                        ]
+                    },
+                    'The King of Limbs': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/af/b6/7b/afb67b4e-6cf8-10b3-31f1-1389e301166d/634904078768.png/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Bloom',
+                            'Morning Mr Magpie',
+                            'Little by Little',
+                            'Feral',
+                            'Lotus Flower',
+                            'Codex',
+                            'Give Up the Ghost',
+                            'Separator'
+                        ]
+                    },
+                    'A Moon Shaped Pool': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/f2/5d/b7f25d91-4320-47c8-146a-6f84d5bc7e78/cover.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Burn the Witch',
+                            'Daydreaming',
+                            'Decks Dark',
+                            'Desert Island Disk',
+                            'Ful Stop',
+                            'Glass Eyes',
+                            'Identikit',
+                            'The Numbers',
+                            'Present Tense',
+                            'Tinker Tailor Soldier Sailor Rich Man Poor Man Beggar Man Theif',
+                            'True Love Waits'
+                        ]
+                    },    
+                }
+            },
+            'Ramones': {
+                albums: {
+                    'Ramones': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Features4/v4/e0/34/88/e03488bc-be97-55a9-6d9e-2dccab02c3b7/dj.quodxoxa.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Blitzkrieg Bop',
+                            'Beat On the Brat',
+                            'Judy Is a Punk',
+                            'I Wanna Be Your Boyfriend',
+                            'Chain Saw',
+                            'Now I Wanna Sniff Some Glue',
+                            'I Don\'t Wanna Go Down to the Basement',
+                            'Loudmouth',
+                            'Havana Affair',
+                            'Listen to My Heart',
+                            '53rd & 3rd',
+                            'Let\'s Dance',
+                            'I Don\' Wanna Walk Around With You',
+                            'Today Your Love, Tomorrow the World'
+                        ]
+                    },
+                    'Leave Home': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Features/v4/ad/4b/cf/ad4bcf1c-240a-570c-4760-4bd8c1d0fa61/dj.scmadaeh.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Glad to See You Go',
+                            'Gimme Gimme Shock Treatment',
+                            'I Remember You',
+                            'Oh Oh I Love Her So',
+                            'Carbona Not Glue',
+                            'Suzy Is a Headbanger',
+                            'Pinhead',
+                            'Now I Wanna Be a Good Boy',
+                            'Swallow My Pride',
+                            'What\'s Your Game',
+                            'California Sun',
+                            'Commando',
+                            'You\'re Gonna Kill That Girl',
+                            'You Should Have Never Opened That Door'
+                        ]
+                    },
+                    'Rocket to Russia': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/e6/0b/f2/e60bf2bf-68d5-e014-e873-99c611fb6744/dj.zmwcwcur.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Cretin Hop',
+                            'Rockaway Beach',
+                            'Here Today, Gone Tomorrow',
+                            'Locket Love',
+                            'I Don\'t Care',
+                            'Sheena Is a Punk Rocker',
+                            'We\'re a Happy Family',
+                            'Teenage Lobotomy',
+                            'Do You Wanna Dance?',
+                            'I Wanna Be Well',
+                            'I Can\'t Give You Anything',
+                            'Ramona',
+                            'Surfin\' Bird',
+                            'Why Is It Always This Way'
+                        ]
+                    },
+                    'Road to Ruin': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/5f/f9/cd/5ff9cd4a-e103-62c6-05e4-ca0efb92c4f2/dj.cbmiijra.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'I Just Want to Have Something to Do',
+                            'I Wanted Everything',
+                            'Don\'t Come Close',
+                            'I Don\'t Want You',
+                            'Needles and Pins',
+                            'I\'m Against It',
+                            'I Wanna Be Sedated',
+                            'Go Mental',
+                            'Questioningly',
+                            'She\'s the One',
+                            'Bad Brain',
+                            'It\'s a Long Way Back'
+                        ]
+                    }
+                }
+            },
+            'Red Hot Chili Peppers': {
+                albums: {
+                    'Blood Sugar Sex Magik': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2b/2b/56/2b2b564c-e21e-bd40-a8cf-cb47dedcb7df/093624932147.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'The Power of Equality',
+                            'If You Have to Ask',
+                            'Breaking the Girl',
+                            'Funky Monks',
+                            'Suck My Kiss',
+                            'I Could Have Lied',
+                            'Mellowship Slinky in B Major',
+                            'The Righteous and the Wicked',
+                            'Give It Away',
+                            'Blood Sugar Sex Magik',
+                            'Under the Bridge',
+                            'Naked in the Rain',
+                            'Apache Rose Peacock',
+                            'The Greeting Song',
+                            'My Lovely Man',
+                            'Sir Psycho Sexy',
+                            'They\'re Red Hot'
+                        ]
+                    },
+                    'Californication': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4c/86/1d/4c861dab-5428-f3b7-8068-82bb69db5e89/093624932130.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Around the World',
+                            'Parallel Universe',
+                            'Scar Tissue',
+                            'Otherside',
+                            'Get on Top',
+                            'Californication',
+                            'Easily',
+                            'Porcelain',
+                            'Emit Remmus',
+                            'I Like Dirt',
+                            'This Velvet Glove',
+                            'Savior',
+                            'Purple Stain',
+                            'Right on Time',
+                            'Road Trippin\''
+                        ]
+                    },
+                    'Stadium Arcadium': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music5/v4/5e/49/35/5e493511-d87b-5aa2-b379-30fffbae902b/093624932154.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Dani California',
+                            'Snow ((Hey Oh))',
+                            'Charlie',
+                            'Stadium Arcadium',
+                            'Hump de Bump',
+                            'She\'s Only 18',
+                            'Slow Cheetah',
+                            'Torture Me',
+                            'Strip My Mind',
+                            'Especially in Michigan',
+                            'Warlocks',
+                            'C\'mon Girl',
+                            'Wet Sand',
+                            'Hey',
+                            'Desecration Smile',
+                            'Tell Me Baby',
+                            'Hard to Concentrate',
+                            '21st Century',
+                            'She Looks to Me',
+                            'Readymade',
+                            'If',
+                            'Make You Feel Better',
+                            'Animal Bar',
+                            'So Much I',
+                            'Storm in a Teacup',
+                            'We Believe',
+                            'Turn It Again',
+                            'Death of a Martian'
+                        ]
+                    },
+                }
+            },
+            'The Rolling Stones': {
+                albums: {
+                    'Out of Our Heads': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/6b/8c/5b/6b8c5bc2-cbf3-5d48-ac10-565dd728802b/13ABKIM00023.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Mercy, Mercy',
+                            'Hitch Hike',
+                            'The Last Time',
+                            'That\'s How Strong My Love Is',
+                            'Good Times',
+                            'I\'m All Right',
+                            'Satisfaction',
+                            'Cry to Me',
+                            'The Under Assistant West Coast Promotion Man',
+                            'Play with Fire',
+                            'The Spider and the Fly',
+                            'One More Try',
+                            'What a Shame'
+                        ]
+                    },
+                    'Aftermath (US)': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ea/26/4d/ea264dc4-5f6e-29a2-c95e-18097da49be9/00018771894520.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Paint It, Black',
+                            'Stupid Girl',
+                            'Lady Jane',
+                            'Under My Thumb',
+                            'Doncha Bother Me',
+                            'Think',
+                            'Flight 505',
+                            'High and Dry',
+                            'It\'s Not Easy',
+                            'I Am Waiting',
+                            'Goin\' Home'
+                        ]
+                    },
+                    'Beggars Banquet': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a3/d1/78/a3d178a8-f1c2-c1c3-1c5d-d78ab3af9768/20UMGIM13726.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Sympathy for the Devil',
+                            'No Expectations',
+                            'Dear Doctor',
+                            'Parachute Woman',
+                            'Jig-Saw Puzzle',
+                            'Street Fighting Man',
+                            'Prodigal Son',
+                            'Stray Cat Blues',
+                            'Factory Girl',
+                            'Salt of the Earth'
+                        ]
+                    },
+                    'Let It Bleed': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/69/64/67/696467fe-9ed1-b65e-1016-a10d07e6464d/20UMGIM14087.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Gimme Shelter',
+                            'Love in Vain',
+                            'Country Honk',
+                            'Live with Me',
+                            'Let It Bleed',
+                            'Midnight Rambler',
+                            'You Got the Silver',
+                            'Monkey Man',
+                            'You Can\'t Always Get What You Want'
+                        ]
+                    },
+                    'Sticky Fingers': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/24/f0/3a/24f03aa1-bdd0-1f6f-2af0-2568e97ed2ac/15UMGIM15404.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Brown Sugar',
+                            'Sway',
+                            'Wild Horses',
+                            'Can\'t You Hear Me Knocking',
+                            'You Gotta Move',
+                            'Bitch',
+                            'I Got the Blues',
+                            'Sister Morphine',
+                            'Dead Flowers',
+                            'Moonlight Mile'
+                        ]
+                    },
+                    'Exile On Main St.': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b6/7b/df/b67bdff8-4e30-d46d-e869-fc0f38462f4c/08UMGIM15728.rgb.jpg/600x600bb.jpg',
+                        tracklist: [
+                            "Rocks Off",	 	
+                            "Rip This Joint",	 	
+                            "Shake Your Hips",	
+                            "Casino Boogie",	 	
+                            "Tumbling Dice",	 	
+                            "Sweet Virginia",	
+                             "Torn and Frayed",	
+                            "Sweet Black Angel"	,
+                            "Loving Cup",	
+                            "Happy",	 
+                            "Turd on the Run",	
+                            "Ventilator Blues",
+                            "I Just Want to See His Face",	 
+                            "Let It Loose",	 	
+                            "All Down the Line", 	
+                            "Stop Breaking Down",	
+                            "Shine a Light",	 	
+                            "Soul Survivor",
+                        ]
+                    },
+                }
+            },
+            'Rush': {
+                albums: {
+                    'Fly by Night': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/14/56/6d/14566dcc-06e2-5f7e-e18a-75d44d11a6c0/00602527893402.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Anthem',
+                            'Best I Can',
+                            'Beneath, Between & Behind',
+                            'By-Tor and the Snow Dog',
+                            'Fly by Night',
+                            'Making Memories',
+                            'Rivendell',
+                            'In the End'
+                        ]
+                    },
+                    '2112': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/a4/44/e5/a444e517-39be-02b3-32c9-c45d6b1bd3e9/00602527893372.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            '2112 Overture',
+                            'The Temples of Syrinx',
+                            'Discovery',
+                            'Presentation',
+                            'Oracle: The Dream',
+                            'Soliloquy',
+                            'Grand Finale',
+                            'A Passage to Bangkok',
+                            'The Twilight Zone',
+                            'Lessons',
+                            'Tears',
+                            'Something for Nothing'
+                        ]
+                    },
+                    'A Farewell to Kings': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/bb/10/76/bb107623-bab6-d978-082e-c429ec9ec8c8/00602527893471.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'A Farewell to Kings',
+                            'Xanadu',
+                            'Closer to the Heart',
+                            'Cinderella Man',
+                            'Madrigal',
+                            'Cygnus X-1 Book I: The Voyage',
+                            'Cygnus X-1 Book II: Hemispheres'
+                        ]
+                    },
+                    'Hemispheres': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/22/2e/48/222e48b0-fbf9-6b30-01a2-b6677891293c/00602527893518.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Cygnus X-1 Book II: Hemispheres',
+                            'Circumstances',
+                            'The Trees',
+                            'La Villa Strangiato'
+                        ]
+                    },
+                    'Permanent Waves': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/ed/8b/f7/ed8bf745-7bb8-99cd-b589-f1218bef4cc7/00602527893525.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'The Spirit of Radio',
+                            'Freewill',
+                            'Jacob\'s Ladder',
+                            'Entre Nous',
+                            'Different Strings',
+                            'Natural Science'
+                        ]
+                    },
+                    'Moving Pictures': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/19/39/78/19397873-9581-13e0-07f3-3071f38527ac/12UMGIM19114.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Tom Sawyer',
+                            'Red Barchetta',
+                            'YYZ',
+                            'Limelight',
+                            'The Camera Eye',
+                            'Witch Hunt',
+                            'Vital Signs'
+                        ]
+                    },
+                    'Signals': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/05/ff/40/05ff4054-a7dc-f2a7-8abb-1a3fbc0cf34d/12UMGIM19536.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Subdivisions',
+                            'The Analog Kid',
+                            'Chemistry',
+                            'Digital Man',
+                            'The Weapon (Part II of Fear)',
+                            'New World Man',
+                            'Losing It',
+                            'Countdown'
+                        ]
+                    }
+                }
+            },
+            'Sex Pistols': {
+                albums: {
+                    'Never Mind the Bollocks, Here\'s the Sex Pistols': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music/4c/16/50/mzi.cipyvpqz.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Holidays in the Sun',
+                            'Bodies',
+                            'No Feelings',
+                            'Liar',
+                            'Problems',
+                            'God Save the Queen',
+                            'Seventeen',
+                            'Anarchy in the U.K.',
+                            'Sub-Mission',
+                            'Pretty Vacant',
+                            'New York',
+                            'EMI'
+                        ]    
+                    }
+                }
+            },
+            'Smashing Pumpkins': {
+                albums: {
+                    'Gish': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ad/6a/ee/ad6aeebf-6c80-fa75-beb3-f52d0bc7768e/19UMGIM59909.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'I Am One',
+                            'Siva',
+                            'Rhinoceros',
+                            'Bury Me',
+                            'Crush',
+                            'Suffer',
+                            'Snail',
+                            'Tristessa',
+                            'Window Paine',
+                            'Daydream'
+                        ]
+                    },
+                    'Siamese Dream': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/3a/dc/08/3adc08b0-e98c-b5dd-943e-a37c7ed06205/13UABIM03615.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Cherub Rock',
+                            'Quiet',
+                            'Today',
+                            'Hummer',
+                            'Rocket',
+                            'Disarm',
+                            'Soma',
+                            'Geek U.S.A.',
+                            'Mayonaise',
+                            'Spaceboy',
+                            'Silverfuck',
+                            'Sweet Sweet',
+                            'Luna'
+                        ]
+                    },
+                    'Mellon Collie And The Infinite Sadness': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/ca/ce/b2/caceb2ed-50f0-c666-e4d0-165a0a1541fc/13UABIM04008.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Mellon Collie and the Infinite Sadness',
+                            'Tonight, Tonight',	 
+                            'Jellybelly',
+                            'Zero',
+                        	'Here Is No Why', 	
+                        	'Bullet with Butterfly Wings', 
+                            'To Forgive',
+                            'Fuck You (An Ode to No One)',
+                        	'Love',
+                            'Cupid de Locke',
+                            'Galapogos',
+                            'Muzzle',
+                            'Porcelina of the Vast Oceans'	 ,
+                            'Take Me Down',
+                        	'Where Boys Fear to Tread'	 ,
+                        	'Bodies',
+                        	'Thirty-Three',
+                        	'In the Arms of Sleep'	 	,
+                        	'1979',
+                        	'Tales of a Scorched Earth',
+                        	'Thru the Eyes of Ruby' 	,
+                        	'Stumbleine',
+                        	'X.Y.U.',
+                            'We Only Come Out at Night',	
+                        	'Beautiful',
+                            'Lily (My One and Only)',	 	
+                            'By Starlight',
+                            'Farewell and Goodnight',
+                        ]
+                    }
+                }
+            },
+            'The Strokes': {
+                albums: {
+                    'Is This It': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/ea/04/d4/ea04d45d-6f5d-ede6-fb64-71f3e6a6e62f/dj.ojkzzidd.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Is This It',
+                            'The Modern Age',
+                            'Soma',
+                            'Barely Legal',
+                            'Someday',
+                            'Alone, Together',
+                            'Last Nite',
+                            'Hard to Explain',
+                            'When It Started',
+                            'Trying Your Luck',
+                            'Take It or Leave It'
+                        ]
+                    },
+                    'Room On Fire': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/e9/2a/f7e92a48-0e20-8286-bbbf-80bd85fbb1af/mzi.gcledsjj.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'What Ever Happened?',
+                            'Reptilia',
+                            'Automatic Stop',
+                            '12:51',
+                            'You Talk Way Too Much',
+                            'Between Love & Hate',
+                            'Meet Me In the Bathroom',
+                            'Under Control',
+                            'The Way It Is',
+                            'The End Has No End',
+                            'I Can\'t Win'
+                        ]
+                    },
+                    'First Impressions of Earth': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f4/c4/25/f4c42532-a348-27f5-1521-4783fdc52a55/888880789709.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'You Only Live Once',
+                            'Juicebox',
+                            'Heart in a Cage',
+                            'Razorblade',
+                            'On the Other Side',
+                            'Vision of Division',
+                            'Ask Me Anything',
+                            '15 Minutes',
+                            'Ize of the World',
+                            'Evening Sun',
+                            'Red Light'
+                        ]
+                    },
+                    'Comedown Machine': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/9c/ae/7a/9cae7a72-29ed-08aa-1b42-913776bbb6ec/886443855571.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Tap Out',
+                            'All the Time',
+                            'One Way Trigger',
+                            'Welcome to Japan',
+                            '80\'s Comedown Machine',
+                            '50/50',
+                            'Slow Animals',
+                            'Partners in Crime',
+                            'Chances',
+                            'Happy Ending',
+                            'Call It Fate, Call It Karma'
+                        ]
+                    },
+                    'The New Abnormal': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/62/a6/ff/62a6ff2a-95c9-5302-31f4-2dcca9e40323/886448281085.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'The Adults Are Talking',
+                            'Selfless',
+                            'Brooklyn Bridge to Chorus',
+                            'Bad Decisions',
+                            'Eternal Summer',
+                            'At the Door',
+                            'Why Are Sundays So Depressing',
+                            'Not the Same Anymore',
+                            'Ode to the Mets'
+                        ]
+                    }
+                }
+            },
+            'The Velvet Underground': {
+                albums: {
+                    'The Velvet Underground & Nico': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/92/93/39/9293397f-a707-237e-ec7e-0ca613a67e3c/06UMGIM04143.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Sunday Morning',
+                            'I\'m Waiting for the Man',
+                            'Femme Fatale',
+                            'Venus in Furs',
+                            'Run, Run, Run',
+                            'All Tomorrow\'s Parties',
+                            'Heroin',
+                            'There She Goes Again',
+                            'I\'ll Be Your Mirror',
+                            'The Black Angel\'s Death Song',
+                            'European Son'
+                        ]
+                    },
+                    'White Light/White Heat': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/ee/ac/91/eeac9154-5178-ebbc-be57-81bfb11f8ce7/00602537589678.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'White Light/White Heat',
+                            'The Gift',
+                            'Lady Godiva\'s Operation',
+                            'Here She Comes Now',
+                            'I Heard Her Call My Name',
+                            'Sister Ray'
+                        ]
+                    },
+                    'The Velvet Underground': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/33/98/39/3398391b-3586-0903-a094-423c93d8fe53/00602547075031.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Candy Says',
+                            'What Goes On',
+                            'Some Kinda Love',
+                            'Pale Blue Eyes',
+                            'Jesus',
+                            'Beginning to See the Light',
+                            'I\'m Set Free',
+                            'That\'s the Story of My Life',
+                            'The Murder Mystery',
+                            'After Hours'
+                        ]
+                    },
+                    'Loaded': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/7d/5e/877d5e8d-8aff-717f-576c-f237ee8d7a34/603497884575.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Who Loves the Sun',
+                            'Sweet Jane',
+                            'Rock & Roll',
+                            'Cool It Down',
+                            'New Age',
+                            'Head Held High',
+                            'Lonesome Cowboy Bill',
+                            'I Found a Reason',
+                            'Train Round the Bend',
+                            'Oh! Sweet Nuthin\''
+                        ]
+                    },
+                    'Squeeze': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/ca/2c/b9/ca2cb906-a04b-4987-ce99-495420ed84c9/5290116403122_cover.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Little Jack',
+                            'Crash',
+                            'Caroline',
+                            'Mean Old Man',
+                            'Dopey Joe',
+                            'Wordless',
+                            'She\'ll Make You Cry',
+                            'Friends',
+                            'Send No Letter',
+                            'Jack & Jane',
+                            'Louise'
+                        ]
+                    }
+                }
+            },
+            'The Who': {
+                albums: {
+                    'Tommy': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/f3/22/7f/f3227fd3-758e-2728-7db2-25b29373c8ae/18UMGIM35635.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Overture',
+                            'It\'s a Boy',
+                            '1921',
+                            'Amazing Journey',
+                            'Sparks',
+                            'The Hawker (Eyesight to the Blind)',
+                            'Christmas',
+                            'Cousin Kevin',
+                            'The Acid Queen',
+                            'Underture',
+                            'Do You Think It\'s Alright?',
+                            'Fiddle About',
+                            'Pinball Wizard',
+                            'There\'s a Doctor',
+                            'Go to the Mirror!',
+                            'Tommy Can You Hear Me?',
+                            'Smash the Mirror',
+                            'Sensation',
+                            'Miracle Cure',
+                            'Sally Simpson',
+                            'I\'m Free',
+                            'Welcome',
+                            'Tommy\'s Holiday Camp',
+                            'We\'re Not Gonna Take It'
+                        ]
+                    },
+                    'Whos Next': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4e/d5/19/4ed519ca-3f8b-65ee-eb21-89d5c6a0b44e/00602547140265.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Baba O\' Riley',
+                            'Bargain',
+                            'Love Ain\'t For Keeping',
+                            'My Wife',
+                            'The Song Is Over',
+                            'Getting In Tune',
+                            'Going Mobile',
+                            'Behind Blue Eyes',
+                            'Won\'t Get Fooled Again'
+                        ]
+                    },
+                    'Quadrophenia': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cc/86/10/cc861044-0537-0de4-4389-dceec0c13b96/06UMGIM44799.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'I Am the Sea',
+                            'The Real Me',
+                            'Quadrophenia',
+                            'Cut My Hair',
+                            'The Punk and the Godfather',
+                            'I\'m One',
+                            'The Dirty Jobs',
+                            'Helpless Dancer',
+                            'Is It in My Head?',
+                            'I\'ve Had Enough',
+                            '5:15',
+                            'Sea and Sand',
+                            'Drowned',
+                            'Bell Boy',
+                            'Doctor Jimmy',
+                            'The Rock',
+                            'Love, Reign O\'er Me'
+                        ]
+                    },
+                    'Who Are You': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0f/f9/fd/0ff9fdb5-f512-57c2-9e46-023575426f0a/00602537945955.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'New Song',
+                            'Had Enough',
+                            '905',
+                            'Sister Disco',
+                            'Music Must Change',
+                            'Trick of the Light',
+                            'Guitar and Pen',
+                            'Love Is Coming Down',
+                            'Who Are You'
+                        ]
+                    },
+                    'Face Dances': {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7f/30/51/7f3051c5-476a-9b94-fe1d-881139f6bd66/00602537945627.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'You Better You Bet',
+                            'Don\'t Let Go the Coat',
+                            'Cache Cache',
+                            'The Quiet One',
+                            'Did You Steal My Money?',
+                            'How Can You Do It Alone',
+                            'Daily Records',
+                            'You',
+                            'Another Tricky Day'
+                        ]
+                    },
+                    "It's Hard": {
+                        coverImage: 'https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7e/de/d1/7eded170-9703-ae08-90c0-dd7c19c2bcac/00602537945665.rgb.jpg/600x600bb.jpg', // Replace with the actual cover image URL
+                        tracklist: [
+                            'Athena',
+                            'It\'s Your Turn',
+                            'Cook\'s County',
+                            'It\'s Hard',
+                            'Dangerous',
+                            'Eminence Front',
+                            'I\'ve Known No War',
+                            'One Life\'s Enough',
+                            'One at a Time',
+                            'Why Did I Fall for That',
+                            'A Man Is a Man',
+                            'Cry If You Want'
+                        ]
+                    },
+                }
+            },
+            
+
 }
 }
