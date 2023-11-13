@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Rating App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="musicdata.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+        </header>
+        <div class="slides slide1">
+            <img class="image1" src="/users/adamglendye/desktop/Websites/Music Website Images/jimi.png">
+            <div class="intro">
+                <h2 class="h2-1">AlbumRankr</h2>
+                <h3 class="h3-1">Discover, Rate, and Share Your Favorite Albums!</h3>
+                <div class="wrap">
+                    <div class="search">
+                       <input type="text" id="artist-search" list="artists" class="searchTerm" placeholder="Search For An Artist..">
+                       <datalist id="artists">
+                        <option value="AC/DC">
+                        <option value="Aerosmith">
+                        <option value="The Allman Brothers Band">
+                        <option value="The Arctic Monkeys">
+                        <option value="The Beach Boys">
+                        <option value="The Beatles">
+                        <option value="Black Sabbath">
+                        <option value="Boston">
+                        <option value="The Byrds">
+                        <option value="The Clash">
+                        <option value="Cream">
+                        <option value="Deep Purple">
+                        <option value="The Doors">
+                        <option value="Eagles">
+                        <option value="Fleetwood Mac">
+                        <option value="Grateful Dead">
+                        <option value="Guns N' Roses">
+                        <option value="The Jimi Hendrix Experience">
+                        <option value="Led Zeppelin">
+                        <option value="Lynyrd Skynyrd">
+                        <option value="Metallica">
+                        <option value="The Moody Blues">
+                        <option value="Nirvana">
+                        <option value="Oasis">
+                        <option value="Pearl Jam">
+                        <option value="Pink Floyd">
+                        <option value="The Police">
+                        <option value="Radiohead">
+                        <option value="The Ramones">
+                        <option value="R.E.M.">
+                        <option value="Red Hot Chili Peppers">
+                        <option value="The Rolling Stones">
+                        <option value="Rush">
+                        <option value="The Sex Pistols">
+                        <option value="The Smashing Pumpkins">
+                        <option value="The Strokes">
+                        <option value="Talking Heads">
+                        <option value="U2">
+                        <option value="Velvet Underground">
+                        <option value="The Who">
+                        <option value="The Yes">
+                        <option value="ZZ Top">
+                        <!-- Add more options for the remaining artists -->
+                    </datalist>
+                       <button type="submit" class="searchButton" onclick="displayAlbums(),scrollToSlide2()">
+                         <i class="fa fa-search"></i>
+                         <img src="/users/adamglendye/desktop/Websites/Music Website Images/search_button.png" alt="Search Icon" class="search-icon">
+                      </button>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div class="slides slide2">
+                <h2 class="h2-2">Albums</h2>
+                <h3 class="h3-2">most popular, in order of release</h3>
+                <div class="albumcovers"> 
+                    <div class="album-list">
+                    </div> 
+                </div>   
+        </div>
+
+        <div class="slides slide3">
+        </div>
+
+        
+    </div>
+
+    <script>
+
+    function scrollToSlide2() {
+        const slide2 = document.querySelector('.slide2');
+        const albumImages = document.querySelectorAll('.album-card img');
+
+        // Check if all album images are loaded
+        const allImagesLoaded = Array.from(albumImages).every(img => img.complete);
+
+        const scrollOptions = {
+            behavior: 'smooth',
+            block: 'start', // Adjust as needed
+            inline: 'nearest', // Adjust as needed
+        };
+
+        const delay = 200; // Delay in milliseconds
+
+        if (allImagesLoaded) {
+            setTimeout(() => {
+                slide2.scrollIntoView(scrollOptions);
+            }, delay);
+        } else {
+            // If not all images are loaded, wait for them to load and then scroll
+            Promise.all(Array.from(albumImages).map(img => new Promise(resolve => img.onload = resolve)))
+                .then(() => {
+                    setTimeout(() => {
+                        slide2.scrollIntoView(scrollOptions);
+                    }, delay);
+                });
+        }
+        
+    }
+
+
+        function scrollToSlide3() {
+            const slide3 = document.querySelector('.slide3');
+            slide3.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function calculateAverageRating(tracklistDiv) {
+        const ratingInputs = tracklistDiv.querySelectorAll('.rating-input');
+        let totalRating = 0;
+        let numberOfRatings = 0;
+
+        ratingInputs.forEach((input) => {
+            const rating = parseFloat(input.value);
+            if (!isNaN(rating)) {
+                totalRating += rating;
+                numberOfRatings += 1;
+            }
+        });
+
+        const averageRating = numberOfRatings > 0 ? totalRating / numberOfRatings : 0;
+        return averageRating.toFixed(2); // Limit to two decimal places
+    }
+
+
+
+    function displayAlbums() {
+        const selectedArtist = document.getElementById('artist-search').value;
+
+        if (musicData.artists[selectedArtist]) {
+            const albums = musicData.artists[selectedArtist].albums;
+            const albumListContainer = document.querySelector('.album-list');
+            albumListContainer.innerHTML = '';
+
+            Object.keys(albums).forEach((albumName) => {
+                const album = albums[albumName];
+                const albumCard = document.createElement('div');
+                albumCard.classList.add('album-card');
+
+                const albumCover = document.createElement('img');
+                albumCover.src = album.coverImage;
+                albumCover.alt = `${selectedArtist} - ${albumName} Cover`;
+
+                // Adding an h3 element for the album title
+                const albumTitle = document.createElement('h3');
+                albumTitle.textContent = albumName;
+
+                const tracklistDiv = document.createElement('div');
+                tracklistDiv.classList.add('tracklist');
+
+                album.tracklist.forEach((track, index) => {
+                    // Create a container div for each track and rating input
+                    const trackContainer = document.createElement('div');
+
+                    // Create a paragraph for the track name
+                    const trackName = document.createElement('p');
+                    trackName.textContent = track;
+
+                    // Create a numeric input box for rating (1-10)
+                    const ratingInput = document.createElement('input');
+                    ratingInput.type = 'number';
+                    ratingInput.min = '1';
+                    ratingInput.max = '10';
+                    ratingInput.placeholder = 'Rate';
+                    ratingInput.classList.add('rating-input');
+
+                    // Append track name and rating input to the container
+                    trackContainer.appendChild(trackName);
+                    trackContainer.appendChild(ratingInput);
+
+                    // Append the dcontainer to the tracklist
+                    tracklistDiv.appendChild(trackContainer);
+                });
+
+                // Adding a submit button as part of the tracklist
+                const submitButton = document.createElement('button');
+                submitButton.textContent = 'Submit Rating';
+                submitButton.classList.add('submit-button');
+                submitButton.style.display = 'none'; // Initially hide the button
+
+                submitButton.addEventListener('click', () => {
+                // Calculate and display the average rating
+                const averageRating = calculateAverageRating(tracklistDiv);
+                alert(`Average Rating for ${albumName}: ${averageRating}`);
+            });
+
+                tracklistDiv.appendChild(submitButton); // Append the submit button to the tracklist
+                tracklistDiv.style.display = 'none';
+
+                // Add click event listener to toggle tracklist visibility and show/hide the button
+                let isTracklistVisible = false; // Variable to track tracklist visibility
+                albumCover.addEventListener('click', () => {
+                    // Toggle the display of the tracklist
+                    tracklistDiv.style.display = isTracklistVisible ? 'none' : 'block';
+
+                    // Toggle the display of the submit button
+                    submitButton.style.display = isTracklistVisible ? 'none' : 'block';
+
+                    // Update the tracklist visibility state
+                    isTracklistVisible = !isTracklistVisible;
+                });
+
+                albumCard.appendChild(albumCover);
+                albumCard.appendChild(albumTitle); // Append the album title
+                albumCard.appendChild(tracklistDiv);
+                albumListContainer.appendChild(albumCard);
+            });
+
+            scrollToSlide2();
+        } else {
+            alert('Artist not found. Please enter a valid artist name.');
+        }
+    }
+
+
+
+    </script>
+</body>
+</html>
